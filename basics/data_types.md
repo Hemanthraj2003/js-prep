@@ -99,7 +99,8 @@ Many other non-primitive data types are built on top of objects, such as:
 - `Regular Expressions`
 - `Maps`
 - `Sets`
-- etc......
+- etc......\
+  [More on Objects](../core/objects.md)
 
 ### NOTES:
 

@@ -16,6 +16,8 @@
 
    - [Objects](core_concepts/objects.md)
 
+   - [Classes](core_concepts/classes.md)
+
    - [Functions](core_concepts/functions.md)
 
    - [Arrays](core_concepts/arrays.md)
