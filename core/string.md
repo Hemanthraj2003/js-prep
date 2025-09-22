@@ -160,3 +160,5 @@ String methods are built-in functions that can be used to manipulate and perform
    console.log(a.slice(-5));
    // Output: World
    ```
+
+   ## [Complete Reference](https://www.w3schools.com/js/js_string_reference.asp)

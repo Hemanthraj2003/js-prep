@@ -23,3 +23,11 @@
    - [Arrays](core/arrays.md)
 
    - [Strings](core/string.md)
+
+   - [Promises](core/promises.md)
+
+3. WEB CONCEPTS
+
+   - [BOM](web/BOM.md)
+
+   - [DOM](web/DOM.md)

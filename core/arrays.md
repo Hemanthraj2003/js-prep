@@ -195,3 +195,76 @@ console.log(numbers); // Output: [1, 1, 3, 4, 5, 9]
 numbers.sort((a, b) => a - b);
 console.log(numbers); // Output: [1, 1, 3, 4, 5, 9]
 ```
+
+---
+
+### `forEach()`
+
+> Used to execute a provided function once for each array element.
+> **Syntax:**
+
+```js
+array.forEach(callback);
+```
+
+**Example:**
+
+```js
+const fruits = ["apple", "banana", "orange"];
+fruits.forEach((fruit) => console.log(fruit));
+// Output:
+// apple
+// banana
+// orange
+```
+
+### `array operators`
+
+#### Spread Operator (`...`)
+
+> Used to expand an array into individual elements.
+> **Example:**
+
+```js
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+
+const combined0 = [arr1, arr2];
+console.log(combined0); // Output: [[1, 2, 3], [4, 5, 6]]
+
+const combined = [...arr1, ...arr2];
+console.log(combined); // Output: [1, 2, 3, 4, 5, 6]
+```
+
+#### rest Operator (`...`)
+
+> Used to combine multiple elements into a single array.
+> **Example:**
+
+```js
+function sum(...numbers) {
+  return numbers.reduce((acc, num) => acc + num, 0);
+}
+console.log(sum(1, 2, 3)); // Output: 6
+
+const [a, ...num] = [1, 2, 3, 4, 5];
+console.log(a); // Output: 1
+console.log(num); // Output: [2, 3, 4, 5]
+```
+
+## MORE METHODS
+
+| Method        | Description                                                                                                      |
+| ------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `concat()`    | Merges two or more arrays and returns a new array.                                                               |
+| `join()`      | Joins all elements of an array into a string.                                                                    |
+| `indexOf()`   | Returns the first index at which a given element can be found in the array, or -1 if it is not present.          |
+| `find()`      | Returns the value of the first element in the array that satisfies the provided testing function.                |
+| `includes()`  | Determines whether an array includes a certain value among its entries, returning true or false as appropriate.  |
+| `shift()`     | Removes the first element from an array and returns that element.                                                |
+| `unshift()`   | Adds one or more elements to the beginning of an array and returns the new length of the array.                  |
+| `splice()`    | Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. |
+| `findIndex()` | Returns the index of the first element in the array that satisfies the provided testing function.                |
+| `every()`     | Tests whether all elements in the array pass the test implemented by the provided function.                      |
+
+## [Complete Reference](https://www.w3schools.com/js/js_array_reference.asp)
