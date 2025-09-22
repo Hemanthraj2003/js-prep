@@ -186,3 +186,10 @@ Relational operators are used to compare two values and determine their relative
 | ------------ | ------------------- | ---------------------- | ----------------------------------------- |
 | `in`         | Property in object  | `'prop' in obj`        | `true` if `obj` has property `prop`       |
 | `instanceof` | Instance of a class | `obj instanceof Class` | `true` if `obj` is an instance of `Class` |
+
+### NOTES:
+
+- Both `relational` and `comparison`, and somtimes they are combined together as `relational operators` but in detail they are different.
+- `comparison` operators are used to compare two values (equal, greater than, less than, etc.) and return a boolean result.
+- `relational` operators are used to determine the relationship between two values (like checking if a property exists in an object or if an object is an instance of a class).
+- some operators can be classified under multiple categories, ex: `++` can be both `arithmetic` and `unary` operator. and `+` can be both `arithmetic` and `string` operator.
