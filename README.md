@@ -14,10 +14,12 @@
 
 2. CORE CONCEPTS
 
-   - [Objects](core_concepts/objects.md)
+   - [Objects](core/objects.md)
 
-   - [Classes](core_concepts/classes.md)
+   - [Classes](core/classes.md)
 
-   - [Functions](core_concepts/functions.md)
+   - [Functions](core/functions.md)
 
-   - [Arrays](core_concepts/arrays.md)
+   - [Arrays](core/arrays.md)
+
+   - [Strings](core/string.md)
